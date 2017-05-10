@@ -90,6 +90,10 @@
                     <Icon type="ios-cloud-upload-outline" :size="iconSize"></Icon>
                     <span class="layout-text">文件上传</span>
                 </Menu-item>
+                 <Menu-item name="5">
+                    <Icon type="navicon" :size="iconSize"></Icon>
+                    <span class="layout-text">base</span>
+                </Menu-item>
             </Menu>
         </i-col>
         <i-col :span="spanRight">
@@ -142,6 +146,9 @@ export default {
                 }, {
                     index: 4,
                     name: 'upload'
+                }, {
+                    index: 5,
+                    name: 'base'
                 }]
             }
         },
@@ -165,7 +172,7 @@ export default {
                     this.$set(this.$data, 'pageName', this.$data.page[e - 1].name);
                 },
                 setActive() {
-                    console.log('gg');
+                    console.log('setActive');
                 }
         }
 }

@@ -26,6 +26,10 @@ export default new Router({
                 {
                     path: '/upload',
                     component: resolve => require(['../components/page/upload.vue'], resolve)
+                },
+                {
+                    path: '/base',
+                    component: resolve => require(['../components/page/learn_base.vue'], resolve)
                 }
             ]
         },
