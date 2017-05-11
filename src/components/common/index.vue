@@ -94,6 +94,10 @@
                     <Icon type="navicon" :size="iconSize"></Icon>
                     <span class="layout-text">base</span>
                 </Menu-item>
+                 <Menu-item name="6">
+                    <Icon type="navicon" :size="iconSize"></Icon>
+                    <span class="layout-text">vform</span>
+                </Menu-item>
             </Menu>
         </i-col>
         <i-col :span="spanRight">
@@ -149,6 +153,9 @@ export default {
                 }, {
                     index: 5,
                     name: 'base'
+                }, {
+                    index: 5,
+                    name: 'vform'
                 }]
             }
         },

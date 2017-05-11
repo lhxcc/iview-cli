@@ -30,6 +30,10 @@ export default new Router({
                 {
                     path: '/base',
                     component: resolve => require(['../components/page/learn_base.vue'], resolve)
+                },
+                {
+                    path: '/vform',
+                    component: resolve => require(['../components/page/learn_form.vue'], resolve)
                 }
             ]
         },
